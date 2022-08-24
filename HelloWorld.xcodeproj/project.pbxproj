@@ -11,6 +11,7 @@
 		DE74A49D28B5CD94003DDB3B /* HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE74A49228B5CD94003DDB3B /* HelloWorld.framework */; };
 		DE74A4A228B5CD94003DDB3B /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE74A4A128B5CD94003DDB3B /* HelloWorldTests.swift */; };
 		DE74A4A328B5CD94003DDB3B /* HelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = DE74A49528B5CD94003DDB3B /* HelloWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE74A4D628B5D3AF003DDB3B /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE74A4D528B5D3AF003DDB3B /* HelloWorld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		DE74A49628B5CD94003DDB3B /* HelloWorld.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HelloWorld.docc; sourceTree = "<group>"; };
 		DE74A49C28B5CD94003DDB3B /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE74A4A128B5CD94003DDB3B /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
+		DE74A4D528B5D3AF003DDB3B /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				DE74A49528B5CD94003DDB3B /* HelloWorld.h */,
 				DE74A49628B5CD94003DDB3B /* HelloWorld.docc */,
+				DE74A4D528B5D3AF003DDB3B /* HelloWorld.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE74A49728B5CD94003DDB3B /* HelloWorld.docc in Sources */,
+				DE74A4D628B5D3AF003DDB3B /* HelloWorld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +400,7 @@
 		DE74A4AA28B5CD94003DDB3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 457K9R3B22;
@@ -412,6 +417,7 @@
 		DE74A4AB28B5CD94003DDB3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 457K9R3B22;
