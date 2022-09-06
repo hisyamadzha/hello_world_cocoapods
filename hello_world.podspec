@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '0.0.1'
   s.summary          = 'iOS testing library'
   s.description      = <<-DESC
-  iOS testing library 
+  Hello world cocoapods 
   DESC
   s.homepage         = 'https://github.com/hisyamadzha/hello_world_cocoapods'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
@@ -13,9 +13,12 @@ Pod::Spec.new do |s|
   }
   s.author           = { 'Your Company' => 'World Company' }
   s.source           = { :git => "https://github.com/hisyamadzha/hello_world_cocoapods.git", :tag => "#{s.version}" }
-  s.source_files     = "HelloWorld/**/*.swift"
-  s.resources        = "HelloWorld/**/*.xib"
+  s.framework	     = "AVFoundation"
+  s.framework        = "Foundation"
+  s.framework        = "Vision"
+  s.framework        = "UIKit"
+  s.source_files     = "HelloWorld/**/*.{h,m,swift}"
+  s.swift_version    = "5.0"
   s.platform         = :ios, '12.0'
-  s.swift_version    = "4.2"
 
 end
